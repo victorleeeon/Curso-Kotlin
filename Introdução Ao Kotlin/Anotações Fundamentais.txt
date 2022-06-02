@@ -1,0 +1,83 @@
+O QUE É KOTLIN? 
+
+Kotlin é uma linguagem de programação open source multiplataforma
+criada pela JetBrains e amplamente usada por desenvolvedores Android.
+
+É multiparadigma, sendo totalmente orientada a objetos,
+mas com algumas características de linguagem funcional (como as funções lambda),
+com tipagem estática e executada pela Java Virtual Machine (Máquina Virtual do Java).
+
+
+
+Por que Utilizar Kotlin?
+
+Em primeiro lugar, a produtividade. Kotlin é uma linguagem enxuta e intuitiva,
+utilizando cerca de 40% menos códigos para representar a mesma coisa que o Java.
+
+A linguagem de programação Java é verbosa,
+e apesar de existir projetos para diminuir essa desvantagem, como o Lombok.
+
+Assim, ela não é tão eficaz quanto a expressividade que Kotlin oferece nativamente.
+A curva de aprendizagem do Kotlin é rápida e relativamente pequena.
+
+Entretanto, escrever menos códigos significa que mais regras precisam ser lembradas.
+Isso vai gerar uma boa carga de estudos aprendendo a melhor forma de escrever um código Kotlin.
+
+Outro ponto a ser destacado é que por ser estaticamente tipada,
+essa linguagem oferece mais segurança e performance ao programador Kotlin.
+
+
+
+Qual As Diferenças Entre Java e Kotlin?
+
+Visão geral de Kotlin Por ser uma nova linguagem desenvolvida com base na inspiração do Java,
+o Kotlin é mais limpo, leve e direto. Ele vem com regras menores e é uma versão aprimorada.
+
+
+
+Variáveis;
+
+Existem dois tipos principais: val e var.
+
+Val: utilizada para declarar constantes. É a forma mais recomendada para declaração de variáveis;
+Var: declarar qualquer variável cujo valor pode ser alterado.
+A primeira requer sua inicialização logo que é declarada.
+A segunda não precisa ser inicializada no momento da sua declaração.
+
+Além disso, tanto a primeira quanto a segunda são declaradas utilizando o pascal notation,
+que é da forma abaixo:
+
+nome_da_variável : tipo_da_variável
+
+Outra questão é a inferência de tipos. O tipo de uma variável não precisa ser explicitamente definido,
+ou seja, não é obrigatório.
+
+Porém, no momento que um valor é atribuído, o tipo da variável é inferido de acordo com o tipo desse valor.
+Vamos ver alguns tipos básicos de Kotlin.
+
+
+
+Tipos básicos;
+
+Todos os tipos básicos do Java estão presentes aqui. O detalhe é que, em Kotlin, todos os tipos são objetos.
+
+Isso quer dizer que apenas se trabalha com os wrappers do Java,
+mas não com seus tipos primitivos correspondentes.
+
+Long: inteiro de 64 bits.
+Int: inteiro de 32 bits.
+Short: inteiro de 16 bits.
+Byte: inteiro de 8 bits.
+Double: ponto flutuante de 64 bits.
+Float: ponto flutuante de 32 bits.
+Boolean: mesmo que o do Java. Pode receber o true ou false.
+
+Algo de importante a mencionar é as operações suportadas pelo tipo booleano, que são:
+| | – disjunção (ou)
+&& – conjunção (e)
+! – negação
+String: em Kotlin, podem ser criadas com aspas duplas ou triplas.
+Char: os caracteres são representados por esse tipo e não podem ser tratados diretamente como números,
+sejam eles inteiros ou de ponto flutuante.
+
+Até breve com mais informações!!
